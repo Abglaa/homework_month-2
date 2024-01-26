@@ -1,0 +1,42 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background: url(image/imag.jpg) center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.block {
+    /* width: 500px; */
+    background-color: transparent;
+    /* background-color: rgba(0, 128, 255, 0.5);  */
+}
+
+label {
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 387px;
+    height: 55px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    margin: 145px 0 29px;
+    border-radius: 12px;
+}
+
+#count {
+    font-weight: 900;
+    font-size: 22px;
+    display: flex;
+    justify-content: end;
