@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quotesList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    gap: 10px
+}
+
+.quote{
+    height: 30%;
+    border: 1px solid #f08e0f9e;
+    border-left: 10px solid #f08e0f9e;
+    padding: 10px 10px 10px 25px;
+    background-color: #f08e0f21;
+    color: #c94601;
+    width: 75%;
+}
+
+.quote-text{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.quote-author{
+    font-size: 20px;
+    opacity: .6;
+    text-align: right;
+}
+
+.quote img{
+    width: 40px;
+    height: 40px;
+    content: url("quote.svg");
+    filter: brightness(0) saturate(100%) invert(26%) sepia(75%) saturate(4767%) hue-rotate(25deg) brightness(100%) contrast(99%);
+}
+
+.pagination{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.page{
+    width: 100px;
+    height: 80px;
+    background-color: #f08e0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page.selected{
+    background-color: #c94601;
+}
+
+label {
+    margin-right: 10px;
+    color: #333; /* Adjust color as needed */
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff; /* Adjust color as needed */
+    color: #333; /* Adjust color as needed */
+}
+
+

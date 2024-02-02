@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="quotesList"></div>
+    <div class="pagination"></div>
+
+    <label for="quotesPerPage">Quotes Per Page:</label>
+    <select id="quotesPerPage" onchange="changeQuotesPerPage(this.value)">
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+    </select>
+
+</div>
+</body>
+<script src="app.js"></script>
+</html>
